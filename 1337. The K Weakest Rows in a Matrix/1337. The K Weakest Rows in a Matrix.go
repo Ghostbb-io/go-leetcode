@@ -1,6 +1,13 @@
-package _1377
+package main
 
-import "sort"
+import (
+	"fmt"
+	"sort"
+)
+
+func main() {
+	fmt.Println(kWeakestRows(nil, 0))
+}
 
 type soldiers struct {
 	total int
